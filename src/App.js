@@ -134,7 +134,7 @@ import Home from "./routes/Home";
 //Louter 이용하여 페이지 이동하기
 
 function App5() {
-  return <Router>
+  return <Router basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route path="/movie/:id" element={<Detail />} />
       <Route path="/" element={<Home />} />
