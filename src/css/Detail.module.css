@@ -1,0 +1,61 @@
+@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
+.kopubbatang * {
+ font-family: 'KoPub Batang', serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 20px 0;
+  padding: 0;
+  font-family: 'KoPub Batang', serif;
+  
+}
+
+.loader {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'KoPub Batang', serif;
+}
+
+.detail__title {
+  font-weight: 900;
+  color: rgb(66, 41, 10);
+}
+
+.detail__img {
+  width: 40vh;
+  min-width: 200px;
+}
+
+.detail__contents {
+  width: 80vh;
+  min-width: 500px;
+}
+
+.detail__genre {
+  padding: 10px 0;
+}
+
+.detail__summary {
+  padding: 10px 0;
+  line-height: 1.5;
+}
+
+.detail__click {
+  padding-top: 40px;
+  text-align: right;
+
+}
+
+.detail__click a {
+  text-decoration: none;
+  color: rgb(77, 37, 37);
+  font-weight: 800;
+  line-height: 1.5;
+}
